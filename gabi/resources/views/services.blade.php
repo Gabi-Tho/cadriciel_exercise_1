@@ -1,8 +1,12 @@
+@extends('master')
+@section ('title', 'about')
+
+@section('content')
 <section class="content-section" id="portfolio">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
                     <h3 class="text-secondary mb-0">Portfolio</h3>
-                    <h2 class="mb-5">Recent Projects</h2>
+                    <h2 class="mb-5">Recent Adventures</h2>
                 </div>
                 <div class="row gx-0">
                     <div class="col-lg-6">
@@ -27,7 +31,7 @@
                             <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
                         </a>
                     </div>
-                    <div class="col-lg-6">
+                    <!-- <div class="col-lg-6">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
@@ -48,7 +52,8 @@
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
+@endsection

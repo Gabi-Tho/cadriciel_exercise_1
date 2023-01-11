@@ -638,6 +638,8 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  background-color: #dfdfdfb6;
+  padding-bottom: var(--bs-gutter-x, 0.75rem);
 }
 
 @media (min-width: 576px) {
@@ -2189,6 +2191,7 @@ progress {
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
+  margin: 0.5rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -2379,6 +2382,7 @@ progress {
 
 textarea.form-control {
   min-height: calc(1.5em + 0.75rem + 2px);
+  height: 8rem;
 }
 textarea.form-control-sm {
   min-height: calc(1.5em + 0.5rem + 2px);
@@ -3030,7 +3034,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #1D809F;
+  background-color: #e0b861;
   border-color: #1D809F;
 }
 .btn-primary:hover {
@@ -11293,8 +11297,9 @@ html {
 }
 
 .content-section {
-  padding-top: 7.5rem;
+  padding-top: 2.5rem;
   padding-bottom: 7.5rem;
+  height: 100%;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
@@ -11473,7 +11478,7 @@ footer.footer .social-link:hover {
   position: relative;
   display: table;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");

@@ -23,5 +23,10 @@ class GabiController extends Controller
         return view('contact');
     }
 
+    public function contactForm(Request $request){
+        
+        return view ('contact',['data'=>$request]);
+    }
+
 
 }
