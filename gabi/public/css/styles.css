@@ -638,9 +638,12 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-  background-color: #dfdfdfb6;
-  padding-bottom: var(--bs-gutter-x, 0.75rem);
+  /* background-color: #dfdfdfb6;
+  padding-bottom: var(--bs-gutter-x, 0.75rem); */
 }
+
+
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -7720,7 +7723,8 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(255, 255, 255) !important;
+  /* color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; */
 }
 
 .text-secondary {
